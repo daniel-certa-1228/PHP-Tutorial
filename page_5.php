@@ -7,7 +7,7 @@
     <title>A Simple PHP File | Page 5</title>
 </head>
 <body>
-    <h1><?php echo "Page 4"; ?></h1>
+    <h1><?php echo "Page 5"; ?></h1>
 
     <?php
     // Operators in PHP
