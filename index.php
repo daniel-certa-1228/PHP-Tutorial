@@ -43,8 +43,12 @@
         echo $nums . "<br>";
         echo $array[0] . "<br>";
         echo $array[1] . "<br>";
-        echo $array[2] . "<br>";        
+        echo $array[2] . "<br>";
+    
+    // print statements - works like echo except it can only output one string.  It also returns a string as a value.
+        print "This is a print statement.<br>";
+        print "<h4>This is a print statement in an h4.</h4>";
+        print "<h4 style='color: red;'>This is a red print statement in an h4.</h4>";
     ?>
-
 </body>
 </html>
