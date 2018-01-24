@@ -70,16 +70,6 @@
     var_dump($color_codes);
     echo "<br>";
     
-    
-
-    
-    
-
-    
-    
-
-    
-    
     ?>
     
 </body>
