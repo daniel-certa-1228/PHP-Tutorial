@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>A Simple PHP File</title>
+    <title>A Simple PHP File | Page 1</title>
 </head>
 <body>
     <h1><?php echo "Hello, world!"; ?></h1>
