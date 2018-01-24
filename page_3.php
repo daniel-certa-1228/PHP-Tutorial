@@ -48,17 +48,7 @@
     echo "<br>";
     fclose($handle);
     
-    
-        
-        
-        
-
-        
-
-        
-
     ?>
-
     
 </body>
 </html>
