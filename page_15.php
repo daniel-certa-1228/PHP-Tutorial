@@ -76,7 +76,7 @@
         echo basename($file) . " (size: " . filesize($file) . " bytes)" . "<br>"; //note.txt (size: 270 bytes)
     }
 
-    //recursive file files by type
+    //recursive find files by type
     function globOutput($path) {
         //check if directory exists
         if(file_exists($path) && is_dir($path)) {
