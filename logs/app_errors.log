@@ -1,0 +1,12 @@
+2018-02-07 14:53:36 - Error: [512], calcDivision(): The divisor cannot be zero in /Users/mfdc/Sites/PHP_1/page_22.php on line 33, Variables:Array
+(
+    [dividend] => 10
+    [divisor] => 0
+)
+
+2018-02-07 14:53:51 - Error: [512], calcDivision(): The divisor cannot be zero in /Users/mfdc/Sites/PHP_1/page_22.php on line 33, Variables:Array
+(
+    [dividend] => 10
+    [divisor] => 0
+)
+
