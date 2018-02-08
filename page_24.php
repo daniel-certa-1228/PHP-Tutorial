@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>A Simple PHP File | Page 23</title>
+    <title>A Simple PHP File | Page 24</title>
 </head>
 <body>
     <h1><?php echo "Page 24"; ?></h1>
@@ -54,6 +54,6 @@
     $obj_3 = new MyClass_2;
     echo $obj_3->getNamespace();
     ?>
-    
+
 </body>
 </html>
