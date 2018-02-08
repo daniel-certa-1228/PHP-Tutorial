@@ -49,7 +49,7 @@
             }  else  {
                 echo "ERROR: File does not exist.";
             }
-            å
+            
         }  else  {
             echo "ERROR: File does not exist.";
         }
