@@ -19,7 +19,11 @@
             echo "Connected successfully. Host info: " . mysqli_get_host_info($connection) . "<br>";
         }
 
-        $insert = "INSERT INTO persons (first_name, last_name, email) VALUES ('Peter','Parker', 'peterparker@mail.com');";
+        $insert = "INSERT INTO persons (first_name, last_name, email) VALUES 
+            ('John', 'Rambo', 'johnrambo@mail.com'),
+            ('Clark', 'Kent', 'clarkkent@mail.com'),
+            ('John', 'Carter', 'johncarter@mail.com'),
+            ('Harry', 'Potter', 'harrypotter@mail.com');";
         if(mysqli_query($connection, $insert)){
             echo "Records inserted successfully.";
         }  else  {
