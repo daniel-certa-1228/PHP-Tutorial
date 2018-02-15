@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Simple PHP File | Page 34</title>
+    <title>Simple PHP File | Page 35</title>
 </head>
 <body>
-    <h1><?php echo "Page 34"; ?></h1>
-    <h2>Selecting Data From Database Tables</h2>
-    
+    <h1><?php echo "Page 35"; ?></h1>
+    <h2>Filtering the Records</h2>
     <?php
         $connection = new mysqli("127.0.0.1", "root", "password", "tutorial_2");
 
@@ -19,7 +18,7 @@
             echo "Connected successfully. Host info: " . mysqli_get_host_info($connection) . "<br>";
         }
 
-        $select = "SELECT * FROM persons";
+        $select = "SELECT * FROM persons WHERE first_name='john';";
 
         if($result = mysqli_query($connection, $select)){
             if(mysqli_num_rows($result) > 0){
