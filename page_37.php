@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Simple PHP File | Page 36</title>
+    <title>Simple PHP File | Page 37</title>
 </head>
 <body>
     <h1><?php echo "Page 37"; ?></h1>
